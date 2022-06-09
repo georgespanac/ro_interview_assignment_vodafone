@@ -6,8 +6,9 @@ class NetworkCollection:
         self.ipv4_network -> ipaddress.IPv4Network
         self.entries -> list(Entry)
         """
+        self.ipv4_network = ipv4_network
+        self.entries = raw_entry_list
 
-        pass
 
     def remove_invalid_records(self):
         """

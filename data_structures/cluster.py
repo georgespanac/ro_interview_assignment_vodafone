@@ -1,3 +1,6 @@
+from data_structures.network_collection import NetworkCollection
+
+
 class Cluster:
     def __init__(self, name, network_list, security_level):
         """
@@ -7,5 +10,8 @@ class Cluster:
         self.security_level -> int
         self.networks -> list(NetworkCollection)
         """
-
+        self.name = name
+        self.security_level = security_level
+        self.networks = network_list
         pass
+
