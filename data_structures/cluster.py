@@ -1,6 +1,3 @@
-from data_structures.network_collection import NetworkCollection
-
-
 class Cluster:
     def __init__(self, name, network_list, security_level):
         """
