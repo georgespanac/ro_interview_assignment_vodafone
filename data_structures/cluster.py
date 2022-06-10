@@ -10,5 +10,4 @@ class Cluster:
         self.name = name
         self.security_level = security_level
         self.networks = network_list
-        pass
 
